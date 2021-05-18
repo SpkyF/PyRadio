@@ -11,7 +11,9 @@ import random
 dir = "/home/pi/Desktop/temp/"
 dir2 = "/media/pi/5427-67DD"
 playing = True
-
+def startup(d1,d2):
+    dir=d1
+    dir2=d2
 
 def play(path2, title, artist,freq=93.7, fast=False, power=1, info="93.7 the radio station"):
     namestring = "\""+title + " by " + artist + "\""
