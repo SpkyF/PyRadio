@@ -8,8 +8,8 @@ import time
 import subprocess
 import random
 
-dir = "/home/pi/Desktop/temp/"
-dir2 = "/media/pi/5427-67DD"
+dir = "/home/pi/Desktop/temp/" ##default directory for the formatted files
+dir2 = "/media/pi/5427-67DD" ##default directory for unformatted files. Please change this
 playing = True
 def startup(d1,d2):
     dir=d1
